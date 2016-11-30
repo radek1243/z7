@@ -1,0 +1,40 @@
+a{
+display: block;
+text-decoration: none;
+text-align: center;
+max-width: 250px;
+border: 1px solid darkkhaki;
+background-color: yellow;
+border-radius: 2px;
+color: coral;
+}
+a:hover{
+    background-color: lightgreen;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+p:first-child{
+    text-align: left;
+}
+form{
+    text-align: center;
+    border: 3px solid #009933;
+    width: 35%;
+    margin : 0 auto;
+    background: linear-gradient(to right, lightgreen, yellow, lightgreen);
+    font-size:25px;
+    border-radius:10px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid #009933;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#przycisk{
+    background-color: #99FF99;
+    margin-bottom: 5px;
+}
