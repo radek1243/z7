@@ -1,0 +1,13 @@
+div{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#katalog{
+    color: blue;
+    text-decoration: underline;
+}
+#plik{
+    color: green;
+    text-decoration: underline;
+}

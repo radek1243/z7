@@ -1,3 +1,11 @@
+<?php
+    if(isset($_COOKIE['login'])){
+        setcookie("login","",time()-3600);
+    }
+    if(isset($_COOKIE['status'])){
+        setcookie("status","",time()-3600);
+    }
+?>
 <html>
     <head>
         <meta charset="utf-8">
