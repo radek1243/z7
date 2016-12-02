@@ -18,6 +18,7 @@
                                     if(isset($_COOKIE['status'])) {setcookie ("status",'',time()-3600);}                                   
                                 }
                                 setcookie('login', $login);
+                                setcookie('sciezka',$login);
                                 $query3 = "update logi set bledne_proby=0, data_godzina=null where id=".$row2['id'];
                                 $host->executeQuery($query3);
                                 header('Location: home.php'); 
@@ -30,6 +31,7 @@
                                 else{
                                     setcookie("status",$row2['data_godzina']);
                                     setcookie('login', $login);
+                                    setcookie('sciezka',$login);
                                     $query3 = "update logi set bledne_proby=0, data_godzina=null where id=".$row2['id'];
                                     $host->executeQuery($query3);  
                                     header('Location: home.php'); 
@@ -38,6 +40,7 @@
                         }
                         else{
                             setcookie('login', $login);
+                            setcookie('sciezka',$login);
                             $query3 = "insert into logi values(null,'".$login."',null,0);";
                             $host->executeQuery($query3);
                             header('Location: home.php'); 

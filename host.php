@@ -1,6 +1,6 @@
 <?php
     class Host{
-        private $host="";	//pola w klasie z danymi do logowania do bazy danych (trzeba wypełnić)
+        private $host="";	//pola w klasie z danymi do logowania do bazy danych (trzeba podać swoje)
         private $user="";
         private $password="";
         private $database="";

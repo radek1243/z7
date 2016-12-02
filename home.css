@@ -1,13 +1,41 @@
+#wyloguj{
+    display: block;
+    max-width: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 2px;
+    float: right;
+}
+#wyloguj:hover{
+    background-color: red;
+    color: white;
+}
+p{
+    text-align: center;
+}
 div{
     width: 60%;
     margin: auto;
     text-align: center;
 }
-#katalog{
+#katalog input[type="submit"]{
     color: blue;
     text-decoration: underline;
+    background-color: white;
+    border: 0px;
+    font-weight: bold;   
 }
-#plik{
+#katalog input[type="submit"]:hover{
+    background-color: yellow;
+}
+#plik a{
     color: green;
     text-decoration: underline;
 }
+#plik a:hover{
+    background-color: yellow;
+}
+

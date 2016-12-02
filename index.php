@@ -5,6 +5,9 @@
     if(isset($_COOKIE['status'])){
         setcookie("status","",time()-3600);
     }
+    if(isset($_COOKIE['sciezka'])){
+        setcookie("sciezka","", time()-3600);
+    }
 ?>
 <html>
     <head>
